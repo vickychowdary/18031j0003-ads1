@@ -1,0 +1,68 @@
+// VIJAYA GOPAL KODURU
+// MADE IN INDIA
+
+a. 4 3 2 1 0 9 8 7 6 5 
+   From 0 to 4 are pushed into stack and poped.
+   After that 5 to 9 are pushed into stack and poped.
+   so, it is posible.
+
+b. 4 6 8 7 5 3 2 9 0 1
+   In this sequence, all nine numbers are pushed into stack and poped from the stack but
+   at the end 0 is poped before 1. It is not posible. so, the sequence is not posible.
+
+c. 2 5 6 7 4 8 9 3 1 0
+
+   stack operations:  
+ 
+   0 1 2 (2 was poped)        - 2
+   0 1 3 4 5 (5 was poped)    - 5 
+   0 1 3 4 6 (6 was poped)    - 6
+   0 1 3 4 7 (7 was poped)    - 7
+   0 1 3 4 (4 was poped)      - 4
+   0 1 3 8 (8 was poped)      - 8
+   0 1 3 9 (9 was poped)      - 9
+   0 1 3 (3 was poped)        - 3
+   0 1 (1 was poped)          - 1
+   0 (0 was poped)            - 0
+  
+   This sequence is posible.
+
+d. 4 3 2 1 0 5 6 7 8 9 
+   From 0 to 4 are pushed into stack and poped.
+   After that from 5 to 9 pushed and poped one by one.
+   So, this sequence is posible.
+
+e. 1 2 3 4 5 6 9 8 7 0
+   
+   stack operations:
+
+   0 1 (1 was poped)      - 1
+   0 2 (2 was poped)      - 2
+   0 3 (3 was poped)      - 3
+   0 4 (4 was poped)      - 4
+   0 5 (5 was poped)      - 5
+   0 6 (6 was poped)      - 6
+   0 7 8 9 (9 was poped)  - 9
+   0 7 8 (8 was poped)    - 8
+   0 7 (7 was poped)      - 7
+   0 (0 was poped)        - 0
+ 
+   This sequence is posible.
+
+f. 0 4 6 5 3 8 1 7 2 9
+   In this sequence, all nine numbers are pushed into stack and poped from the stack but
+   at 7th operation 1 is poped insted of 2. It is not posible. so, the sequence is not posible.
+
+g. 1 4 7 9 8 6 5 3 0 2
+   In this sequence, all nine numbers are pushed into stack and poped from the stack but
+   at the end 0 is poped before 2. It is not posible. so, the sequence is not posible.
+
+h. 2 1 4 3 6 5 8 7 9 0
+   
+   In this sequence from 0 to 2 are pushed into stack and 1,2 are poped.
+   3,4 are pushed and poped.
+   5,6 are pushed and poped.
+   7,8 are pushen and poped.
+   9 pushed and 9,0 are poped.
+   
+   This sequence is posible.
