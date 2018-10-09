@@ -1,0 +1,44 @@
+// VIJAYA GOPAL KODURU 
+// MADE IN INDIA
+
+ Given input : it was - the best - of times - - - it was - the - -
+
+
+steps        Elements in the stack
+
+  1          it
+  
+  2          it was
+  
+  3          it   ('was' was poped)
+
+  4          it the
+
+  5          it the best
+
+  6          it the ('best' was poped)
+
+  7          it the of
+
+  8          it the of times
+ 
+  9          it the of ('time' was poped)
+
+  10         it the ('of' was poped)
+
+  11         it ('the' was poped)
+
+  12         it it
+
+  13         it it was
+ 
+  14         it it ('was' was poped)
+
+  15         it it the
+ 
+  16         it it ('the' was poped)
+
+  17         it ('it' was popeed)
+
+
+         OUT PUT : it
